@@ -11,7 +11,8 @@
 
 #define nginx_version      1023004
 #define NGINX_VERSION      "1.23.4"
-#define NGINX_VER          "nginx/" NGINX_VERSION
+// #define NGINX_VER          "nginx/" NGINX_VERSION
+#define NGINX_VER          "Magic/" NGINX_VERSION
 
 #ifdef NGX_BUILD
 #define NGINX_VER_BUILD    NGINX_VER " (" NGX_BUILD ")"
@@ -19,7 +20,8 @@
 #define NGINX_VER_BUILD    NGINX_VER
 #endif
 
-#define NGINX_VAR          "NGINX"
+// #define NGINX_VAR          "NGINX"
+#define NGINX_VAR          "MAGIC"
 #define NGX_OLDPID_EXT     ".oldbin"
 
 

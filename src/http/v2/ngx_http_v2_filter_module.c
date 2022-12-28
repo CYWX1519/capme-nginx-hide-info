@@ -476,8 +476,12 @@ ngx_http_v2_header_filter(ngx_http_request_t *r)
                            NGINX_VER_BUILD);
 
         } else {
+            /*
             ngx_log_debug0(NGX_LOG_DEBUG_HTTP, fc->log, 0,
                            "http2 output header: \"server: nginx\"");
+            */
+            ngx_log_debug0(NGX_LOG_DEBUG_HTTP, fc->log, 0,
+                           "http2 output header: \"server: Magic\"");
         }
 
         *pos++ = ngx_http_v2_inc_indexed(NGX_HTTP_V2_SERVER_INDEX);

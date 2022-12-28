@@ -45,10 +45,15 @@ ngx_module_t  ngx_http_header_filter_module = {
     NGX_MODULE_V1_PADDING
 };
 
-
+/*
 static u_char ngx_http_server_string[] = "Server: nginx" CRLF;
 static u_char ngx_http_server_full_string[] = "Server: " NGINX_VER CRLF;
 static u_char ngx_http_server_build_string[] = "Server: " NGINX_VER_BUILD CRLF;
+*/
+
+static u_char ngx_http_server_string[] = "Server: Magic 1.0.1" CRLF;
+static u_char ngx_http_server_full_string[] = "Server: Magic 1.0.1" CRLF;
+static u_char ngx_http_server_build_string[] = "Server: 1.0.1" CRLF;
 
 
 static ngx_str_t ngx_http_status_lines[] = {
