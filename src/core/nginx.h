@@ -10,7 +10,8 @@
 
 
 #define nginx_version      1023004
-#define NGINX_VERSION      "1.23.4"
+// #define NGINX_VERSION      "1.23.4"
+#define NGINX_VERSION      "1.0.1"
 // #define NGINX_VER          "nginx/" NGINX_VERSION
 #define NGINX_VER          "Magic/" NGINX_VERSION
 
